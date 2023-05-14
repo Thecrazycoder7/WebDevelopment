@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>PROJECT</title>
+    <link rel="icon" href="icon.png">
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            color: white;
+        }
+        .head{
+            height: 70px;
+            width: 100%;
+            background-color: #00695c;
+            display: flex;
+            justify-content: center;
+            position: fixed;
+        }
+    
+       .container{
+           width: 90%;
+           display: flex;
+       }
+       .header{
+           justify-content: space-between;
+       }
+       .logo{
+           width: 35%;
+           height: 70px;
+           font-size: 140%;
+           line-height: 70px;
+           text-align: center;
+           font-weight: bold;
+       }
+       .nav{
+           width: 45%;
+           height: 70px;
+           display: flex;
+       }
+       .item{
+           width: 25%;
+           height: 70px;
+           font-size: 10px;
+           font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+           text-align: center;
+           line-height: 70px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: 0.5s;
+       }
+       .item:hover{
+           color: black;
+           background-color: white;
+       }
+       .banner{
+            background: url(home.jpg);
+             background-size: cover;
+           height: 70vh;
+           width: 100%;  
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+       }
+       .content{
+           background-color: #000000ad;
+            height: 70vh;
+            width: 100%;  
+            display: flex;
+            justify-content: center;
+            align-items: center;
+       }
+       .topic{
+
+           height: 200px;
+           width: 50%;
+           font-size: 50px;
+           font-weight: bold;
+           text-shadow: 1px 1px 10px black;
+           text-align: center;
+       }
+       .btn{
+            color: azure;
+            background-color: #d81b60;
+            padding: 5px 20px;
+            border: none;
+            margin-top: 10px;
+            cursor: pointer;
+       }
+       .about{
+           background-color: #4db6ac;
+           height: 250px;
+           width: 100%;
+           display: flex;
+           align-items: center;
+            justify-content: center;
+       }
+       .para{
+           width: 90%;
+           height: 30vh;
+           color: #9e9e9e;
+           text-shadow: 1px 1px 5px gray;
+       }
+       .video{
+            height: 800px;
+            width: 100%;
+            background-color: #66bb6a;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-right: 70px;
+            flex-wrap: wrap;
+            flex-direction: row;
+       }
+       .type{
+           width: 50%;
+           height: 300px;
+           justify-content: flex-end;
+           display: inline-flex;
+           overflow: hidden;
+
+       }
+       .img{
+           width: 40%;
+           height: 300px;
+       }
+       .details{
+            width: 40%;
+           height: 300px;
+           background-color: #a5d6a7;
+           padding-left: 5px;
+           padding-top: 15px;
+           color: black;
+       }
+       h2{
+           font-size: 20px;
+           color: black;
+           font-weight: bold;
+       }
+       p{
+           font-size: 15px;
+           color: #245064;
+       }
+       .benefit{
+           text-align: center;
+            height: 280px;
+            width: 100%;
+            background-color: #588092;
+            padding-left: 90px;
+       }
+       .point{
+           padding-top: 10px;
+           background-color: #90a4ae61;
+           display: flex;
+            justify-content: center;
+            align-items: center;
+           width: 90%;
+           height: 40px;
+       }
+        .contact{
+            width: 100%;
+            height: 100px;
+            background-color: aqua;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+         }
+         .info{
+            padding: 40px;
+             width: 90%;
+             height: 80px;
+             display: flex; 
+             justify-content: space-between;
+            align-items: center;
+         }
+         .social{
+            width: 100%;
+            height: 80px;
+            background-color: #245064;
+            display: flex; 
+             justify-content: center;
+            align-items: center;
+         }   
+         .social-icon{
+             height: 50px;
+             width: 80%;
+            display: flex;
+            justify-content: center;
+            background-size: cover;
+         } 
+
+    </style>
+</head>
+<body>
+        <div class="head ">
+           <div class="container header">
+            <div class="logo">
+                Discreet Creator
+            </div>
+
+            <div class="nav">
+                <div class="item">HOME</div>
+                <div class="item">ABOUT</div>
+                <div class="item">SERVICES</div>
+                <div class="item">CONTACT</div>
+            </div>
+           </div>
+        </div>
+
+        <div class="banner">
+            <div class="content">
+                <div class="topic">
+                    <span style="color: crimson; font-size: 150px;">D</span>IGITAL <span style="color: crimson; font-size: 150px;">M</span>ARKETING
+                    <br>
+                    <button class="btn">
+                        know more
+                    </button>
+                
+                </div>
+            </div>
+        </div>
+
+        <div class="about">
+            <div class="para">
+                <h1 style="color: black; text-align: center;margin-bottom: 20px;">What is Digital Marketing</h1>
+                <p style="color: #db9a46; text-align: center;
+                font-size: 100%;font-weight: bold;">
+                        Digital marketing is the component of marketing that utilizes internet and online based digital technologies such as desktop computers, mobile phones and other digital media and platforms to promote products and services.
+                    <br>
+                    As digital platforms became increasingly incorporated into marketing plans and everyday life.
+                    <br>
+                    Digital marketing extends to non-Internet channels that provide digital media, such as television, mobile phones (SMS and MMS), callback, and on-hold mobile ring tones.
+                </p>
+            </div>
+        </div>
+
+        <div class="video">
+    
+            <div class="type">
+                <div class="img">
+                    <img src="home1.jpg" alt="">
+                </div>
+                <div class="details">
+                    <h2>Search engine marketing (SEM)</h2>
+                    <br>
+                    <p>SEM, also known as PPC advertising, involves the purchase of ad space in prominent, visible positions atop search results pages and websites. Search ads have been shown to have a positive impact on brand recognition, awareness and conversions.</p>
+
+                    <button class="btn">more</button>
+                </div>
+            </div>
+            <div class="type">
+                <div class="img">
+                    <img src="home2.jpg" alt="">
+                </div>
+                <div class="details">
+                    <h2>Search engine marketing (SEM)</h2>
+                    <br>
+                    <p>SEM, also known as PPC advertising, involves the purchase of ad space in prominent, visible positions atop search results pages and websites. Search ads have been shown to have a positive impact on brand recognition, awareness and conversions.</p>
+
+                    <button class="btn">more</button>
+                </div>
+            </div>
+            <div class="type">
+                <div class="img">
+                    <img src="home3.jpg" alt="">
+                </div>
+                <div class="details">
+                    <h2>Search engine marketing (SEM)</h2>
+                    <br>
+                    <p>SEM, also known as PPC advertising, involves the purchase of ad space in prominent, visible positions atop search results pages and websites. Search ads have been shown to have a positive impact on brand recognition, awareness and conversions.</p>
+
+                    <button class="btn">more</button>
+                </div>
+            </div>
+            <div class="type">
+                <div class="img">
+                    <img src="home4.jpg" alt="">
+                </div>
+                <div class="details">
+                    <h2>Search engine marketing (SEM)</h2>
+                    <br>
+                    <p>SEM, also known as PPC advertising, involves the purchase of ad space in prominent, visible positions atop search results pages and websites. Search ads have been shown to have a positive impact on brand recognition, awareness and conversions.</p>
+
+                    <button class="btn">more</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="benefit">
+            <h2 style="font-size: 30px;padding:  20px 0; 
+            color: black;">Benefits of social media marketing</h2>
+
+            <div class="point">Allows companies to promote themselves to large, diverse audiences that could not be reached through traditional marketing such as phone and email based advertising.</div>
+            <div class="point">Marketing on most social media platforms comes at little to no cost- making it accessible to virtually any size business.</div>
+
+            <div class="point">Ideal environment for a company to conduct market research.</div>
+
+            <div class="point">Social platforms can be used to promote brand events, deals, and news.</div>
+            </div>
+        </div>
+
+        <div class="contact">
+            <div class="info">
+                <img src="icon.png">
+            <h2> Discreet Creater [Crazy_Girl]</h2>
+            <p> heloo.! <br>
+                wel_Come to our site</p>
+            <p> Mobile: ********** <br>
+                Address: Jamadoba, Jorapokar, Dhanbad, Jharkand.</p>
+
+            </div>
+            </div>
+        </div>
+        <div class="social">
+            <div class="social-icon">
+                <img src="facebook.jpg" alt="">
+                <img src="whatsapp.jpg" alt="">
+                <img src="twitter.jpg" alt="">
+                <img src="instagram.jpg" alt="">
+            </div>
+        </div>
+</body>
+</html
